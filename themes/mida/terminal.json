@@ -1,0 +1,23 @@
+{
+    "background": "#12110F",
+    "black": "#12110F",
+    "blue": "#5C7EA6",
+    "brightBlack": "#2A2520",
+    "brightBlue": "#7698C0",
+    "brightCyan": "#87CCC6",
+    "brightGreen": "#BBD796",
+    "brightPurple": "#B484B8",
+    "brightRed": "#F37946",
+    "brightWhite": "#FBF1E7",
+    "brightYellow": "#FFCD6A",
+    "cursorColor": "#FF9A3C",
+    "cyan": "#6EB5B0",
+    "foreground": "#E7D8C3",
+    "green": "#A1C181",
+    "name": "mida",
+    "purple": "#9B6D9E",
+    "red": "#DD5D3A",
+    "selectionBackground": "#2A2520",
+    "white": "#E7D8C3",
+    "yellow": "#F5B852"
+}

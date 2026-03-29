@@ -1,0 +1,23 @@
+{
+    "background": "#0B0507",
+    "black": "#0B0507",
+    "blue": "#5C4B8A",
+    "brightBlack": "#261317",
+    "brightBlue": "#7C67B8",
+    "brightCyan": "#93B9B4",
+    "brightGreen": "#91A663",
+    "brightPurple": "#B06189",
+    "brightRed": "#FF6B7A",
+    "brightWhite": "#F6E6E8",
+    "brightYellow": "#E0B868",
+    "cursorColor": "#F3D5DA",
+    "cyan": "#6F8F8B",
+    "foreground": "#E8C4C9",
+    "green": "#7A8C54",
+    "name": "arachne",
+    "purple": "#8C4368",
+    "red": "#C84B5A",
+    "selectionBackground": "#261317",
+    "white": "#E8C4C9",
+    "yellow": "#C89A4B"
+}

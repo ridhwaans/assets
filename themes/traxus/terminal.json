@@ -1,0 +1,23 @@
+{
+    "background": "#111214",
+    "black": "#111214",
+    "blue": "#58708D",
+    "brightBlack": "#25282D",
+    "brightBlue": "#7389A6",
+    "brightCyan": "#8AB9B5",
+    "brightGreen": "#97B57C",
+    "brightPurple": "#9F8BB6",
+    "brightRed": "#DB745E",
+    "brightWhite": "#F7F0E2",
+    "brightYellow": "#ECBE67",
+    "cursorColor": "#F4C86A",
+    "cyan": "#6F9F9C",
+    "foreground": "#E3D7BD",
+    "green": "#7D9B65",
+    "name": "traxus",
+    "purple": "#85739C",
+    "red": "#C25B47",
+    "selectionBackground": "#25282D",
+    "white": "#E3D7BD",
+    "yellow": "#D4A24C"
+}

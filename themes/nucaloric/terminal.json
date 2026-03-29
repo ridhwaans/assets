@@ -1,0 +1,23 @@
+{
+    "background": "#12150E",
+    "black": "#12150E",
+    "blue": "#4F6B55",
+    "brightBlack": "#2A3020",
+    "brightBlue": "#688770",
+    "brightCyan": "#88B9A9",
+    "brightGreen": "#A1C461",
+    "brightPurple": "#A4869F",
+    "brightRed": "#E08452",
+    "brightWhite": "#F4F6E9",
+    "brightYellow": "#EDCC73",
+    "cursorColor": "#E8F2A8",
+    "cyan": "#6DA391",
+    "foreground": "#D9DDC7",
+    "green": "#88B04B",
+    "name": "nucaloric",
+    "purple": "#8A6F86",
+    "red": "#C96B3B",
+    "selectionBackground": "#2A3020",
+    "white": "#D9DDC7",
+    "yellow": "#D7B75C"
+}

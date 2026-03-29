@@ -1,0 +1,51 @@
+"$schema" = "https://starship.rs/config-schema.json"
+
+format = """
+[](fg:#D4A24C)\
+[TRAXUS](bg:#D4A24C fg:#111214 bold)\
+[](fg:#D4A24C bg:#58708D)\
+$directory\
+[](fg:#58708D bg:#85739C)\
+$git_branch\
+$git_status\
+[](fg:#85739C bg:#25282D)\
+$package\
+$python\
+$time\
+[](fg:#25282D)\
+\n$character"""
+
+[directory]
+style = "bg:#58708D fg:#F7F0E2"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[git_branch]
+symbol = " "
+style = "bg:#85739C fg:#F7F0E2"
+format = "[ $symbol$branch ]($style)"
+
+[git_status]
+style = "bg:#85739C fg:#F7F0E2"
+format = "[ $all_status$ahead_behind ]($style)"
+
+[package]
+symbol = "󰏗 "
+style = "bg:#25282D fg:#F4C86A"
+format = "[ $symbol$version ]($style)"
+
+[python]
+symbol = " "
+style = "bg:#25282D fg:#F4C86A"
+format = "[ $symbol$virtualenv ]($style)"
+
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:#25282D fg:#F4C86A"
+format = "[  $time ]($style)"
+
+[character]
+success_symbol = "[»](bold fg:#D4A24C)"
+error_symbol = "[»](bold fg:#DB745E)"

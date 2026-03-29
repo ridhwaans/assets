@@ -1,0 +1,57 @@
+"$schema" = "https://starship.rs/config-schema.json"
+
+format = """
+[](fg:#19E3FF)\
+[CYBERACME](bg:#19E3FF fg:#07141C bold)\
+[](fg:#19E3FF bg:#33BBFF)\
+$hostname\
+$directory\
+[](fg:#33BBFF bg:#6D7CFF)\
+$git_branch\
+$git_status\
+[](fg:#6D7CFF bg:#0F2530)\
+$python\
+$nodejs\
+$time\
+[](fg:#0F2530)\
+\n$character"""
+
+[hostname]
+ssh_only = false
+style = "bg:#33BBFF fg:#07141C"
+format = "[ $hostname ]($style)"
+
+[directory]
+style = "bg:#33BBFF fg:#07141C"
+format = "[ $path ]($style)"
+truncation_length = 4
+truncation_symbol = "…/"
+
+[git_branch]
+symbol = "󰘬 "
+style = "bg:#6D7CFF fg:#EAFCFF"
+format = "[ $symbol$branch ]($style)"
+
+[git_status]
+style = "bg:#6D7CFF fg:#EAFCFF"
+format = "[ $all_status$ahead_behind ]($style)"
+
+[python]
+symbol = " "
+style = "bg:#0F2530 fg:#7DF9FF"
+format = "[ $symbol$virtualenv ]($style)"
+
+[nodejs]
+symbol = " "
+style = "bg:#0F2530 fg:#7DF9FF"
+format = "[ $symbol$version ]($style)"
+
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:#0F2530 fg:#7DF9FF"
+format = "[  $time ]($style)"
+
+[character]
+success_symbol = "[❯](bold fg:#19E3FF)"
+error_symbol = "[❯](bold fg:#FF7A9C)"

@@ -1,0 +1,51 @@
+"$schema" = "https://starship.rs/config-schema.json"
+
+format = """
+[](fg:#F5B852)\
+[MIDA](bg:#F5B852 fg:#12110F bold)\
+[](fg:#F5B852 bg:#DD5D3A)\
+$status\
+$directory\
+[](fg:#DD5D3A bg:#5C7EA6)\
+$git_branch\
+$git_status\
+[](fg:#5C7EA6 bg:#2A2520)\
+$python\
+$cmd_duration\
+[](fg:#2A2520)\
+\n$character"""
+
+[status]
+disabled = false
+style = "bg:#DD5D3A fg:#FBF1E7"
+symbol = "✘"
+format = "[ $symbol$status ]($style)"
+
+[directory]
+style = "bg:#DD5D3A fg:#FBF1E7"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[git_branch]
+symbol = " "
+style = "bg:#5C7EA6 fg:#FBF1E7"
+format = "[ $symbol$branch ]($style)"
+
+[git_status]
+style = "bg:#5C7EA6 fg:#FBF1E7"
+format = "[ $all_status$ahead_behind ]($style)"
+
+[python]
+symbol = " "
+style = "bg:#2A2520 fg:#FF9A3C"
+format = "[ $symbol$virtualenv ]($style)"
+
+[cmd_duration]
+min_time = 500
+style = "bg:#2A2520 fg:#FF9A3C"
+format = "[ 󱎫 $duration ]($style)"
+
+[character]
+success_symbol = "[➜](bold fg:#F5B852)"
+error_symbol = "[➜](bold fg:#DD5D3A)"

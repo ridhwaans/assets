@@ -1,0 +1,23 @@
+{
+    "background": "#07141C",
+    "black": "#07141C",
+    "blue": "#33BBFF",
+    "brightBlack": "#0F2530",
+    "brightBlue": "#5DCDFF",
+    "brightCyan": "#64EEFF",
+    "brightGreen": "#5DF3C2",
+    "brightPurple": "#939DFF",
+    "brightRed": "#FF7A9C",
+    "brightWhite": "#EAFCFF",
+    "brightYellow": "#FFE58F",
+    "cursorColor": "#7DF9FF",
+    "cyan": "#19E3FF",
+    "foreground": "#B7F0FF",
+    "green": "#3BE8B0",
+    "name": "cyberacme",
+    "purple": "#6D7CFF",
+    "red": "#FF5F87",
+    "selectionBackground": "#0F2530",
+    "white": "#B7F0FF",
+    "yellow": "#F5D76E"
+}

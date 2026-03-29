@@ -1,0 +1,52 @@
+"$schema" = "https://starship.rs/config-schema.json"
+
+format = """
+[](fg:#E7E5DE)\
+[SEKIGUCHI](bg:#E7E5DE fg:#0F1010 bold)\
+[](fg:#E7E5DE bg:#C04A56)\
+$hostname\
+[](fg:#C04A56 bg:#7AA2C9)\
+$directory\
+[](fg:#7AA2C9 bg:#7BD4C7)\
+$git_branch\
+$git_status\
+[](fg:#7BD4C7 bg:#232525)\
+$python\
+$time\
+[](fg:#232525)\
+\n$character"""
+
+[hostname]
+ssh_only = false
+style = "bg:#C04A56 fg:#FBFAF4"
+format = "[ $hostname ]($style)"
+
+[directory]
+style = "bg:#7AA2C9 fg:#0F1010"
+format = "[ $path ]($style)"
+truncation_length = 4
+truncation_symbol = "…/"
+
+[git_branch]
+symbol = " "
+style = "bg:#7BD4C7 fg:#0F1010"
+format = "[ $symbol$branch ]($style)"
+
+[git_status]
+style = "bg:#7BD4C7 fg:#0F1010"
+format = "[ $all_status$ahead_behind ]($style)"
+
+[python]
+symbol = " "
+style = "bg:#232525 fg:#E7E5DE"
+format = "[ $symbol$virtualenv ]($style)"
+
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:#232525 fg:#E7E5DE"
+format = "[  $time ]($style)"
+
+[character]
+success_symbol = "[◈](bold fg:#C04A56)"
+error_symbol = "[◈](bold fg:#FF6B6B)"
