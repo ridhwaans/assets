@@ -10,6 +10,6 @@ export VSCODE_ICON_THEME="material-icon-theme"
 export VSCODE_COLOR_EXTENSION="dracula-theme.theme-dracula"
 export VSCODE_COLOR_THEME="Dracula"
 export WT_FILENAME="terminal.json"
-export TERM_FILENAME="Gotham.terminal"
+export TERM_FILENAME="arachne.terminal"
 export NVIM_FILENAME="colorscheme.lua"
 export THEME_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
